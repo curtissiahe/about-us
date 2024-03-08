@@ -8,8 +8,34 @@
 
 body{
     background-color: black;
+}
+h1{
+    text-align: center;
+}
 
-    ;
+.ourteamCountainer{
+    height: 600px;
+}
+
+
+.grid-Container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.team-member {
+    text-align: center;
+    color:white
+}
+
+.team-member img {
+    max-width: 100%;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+    border: 2px solid white;
+    gap: 15px;
 }
 
  nav {
@@ -51,6 +77,15 @@ body{
 
  }
 
+ .ourstoryp{
+    color: aliceblue;
+ }
+
+ .ourstory{
+    height: 300px;
+    text-align: center;
+ }
+
  
  .chekbtn{
     font-size: 30px;
@@ -73,7 +108,6 @@ body{
     height: calc(100vh- 80px);
     width: 100%;
 }
-
 
 
 
